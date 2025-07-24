@@ -1,0 +1,11 @@
+.idea
+*/egg-info
+egg-info/
+**.egg-info
+*.egg
+#Add Env files
+.env
+.env*.local
+# Ignore Python cache files
+__pycache__/
+
