@@ -79,36 +79,10 @@ The script uses this priority order:
 2. **.env file variables**
 3. **Interactive prompts** (only if values are missing)
 
-### .env File Format
-
-Create a `.env` file in your project root:
-
-```bash
-# Required values
-AWS_SSH_HOST=34.229.96.55
-AWS_SSH_KEY=~/.ssh/aws-key-2025
-
-# Optional values (with defaults)
-AWS_SSH_USER=forge
-AWS_SSH_PORT=22
-```
-
 
 ## Environment Configuration
 
-### .env File (Recommended)
 
-Create a `.env` file in your project root with your AWS configuration:
-
-```bash
-# Required
-AWS_SSH_HOST=34.229.96.55
-AWS_SSH_KEY=~/.ssh/aws-key-2025
-
-# Optional (with defaults)
-AWS_SSH_USER=forge
-AWS_SSH_PORT=22
-```
 
 ### Missing Configuration Handling
 
