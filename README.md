@@ -122,26 +122,6 @@ The script uses this priority order:
 
 3. **Connection Security**: The script uses paramiko with proper host key checking
 
-## Development
-
-### Running with development dependencies
-
-```bash
-# Install with dev dependencies
-uv pip install -e ".[dev]"
-
-# Format code
-black aws_ssh_client.py
-
-# Sort imports
-isort aws_ssh_client.py
-
-# Type checking
-mypy aws_ssh_client.py
-
-# Run tests
-pytest
-```
 
 ## Troubleshooting
 
